@@ -1,0 +1,20 @@
+.home {
+  align-items: center;
+  position: relative;
+  top: 200px;
+
+  &__title {
+    display: block;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+  }
+
+  &__link--link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+  }
+}

@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-} from "react-router-dom";
+import { Switch, Route, NavLink } from "react-router-dom";
 import Experience from "../experience/Experience";
 import Projects from "../projects/Projects";
 import Contact from "../contact/Contact";
@@ -17,42 +12,37 @@ function Home() {
   return (
     <>
       <ParticlesBg type="cobweb" bg={true} />
-      <h1 className="animate__animated animate__fadeIn">Cato Roaldsøy</h1>
+      <Row className="home">
+        <Col lg={7}>
+          <h1 className="animate__animated animate__fadeIn home__title">
+            Cato
+            <br />
+            Roaldsøy
+          </h1>
+        </Col>
 
-      <Row>
-        <Col
-          lg={3}
-          className="animate__animated animate__bounceInDown animate__slow"
-        >
+        <Col lg={5} className="home__link">
           <NavLink to="/profile" role="link">
-            Profile
+            <div className="animate__animated animate__bounceInDown animate__slow home__link--link">
+              Profile
+            </div>
           </NavLink>
-        </Col>
 
-        <Col
-          lg={3}
-          className="animate__animated animate__bounceInDown animate__slower"
-        >
           <NavLink to="/experience" role="link">
-            Experience
+            <div className="animate__animated animate__bounceInDown animate__slower home__link--link">
+              Experience
+            </div>
           </NavLink>
-        </Col>
-
-        <Col
-          lg={3}
-          className="animate__animated animate__bounceInDown animate__slow animate__delay-1s"
-        >
           <NavLink to="/projects" role="link">
-            Projects
+            <div className="animate__animated animate__bounceInDown animate__slow animate__delay-1s home__link--link">
+              Projects
+            </div>
           </NavLink>
-        </Col>
 
-        <Col
-          lg={3}
-          className="animate__animated animate__bounceInDown animate__slower animate__delay-1s"
-        >
           <NavLink to="/contact" role="link">
-            Contact
+            <div className="animate__animated animate__bounceInDown animate__slower animate__delay-1s home__link--link">
+              Contact
+            </div>
           </NavLink>
         </Col>
       </Row>
