@@ -4,13 +4,13 @@ import Education from "./Education";
 
 function Experience() {
   return (
-    <article>
-      <div>
-        <h2>EXPERIENCE</h2>
+    <>
+      <h2>EXPERIENCE</h2>
+      <article>
         <Education />
         <Work />
-      </div>
-    </article>
+      </article>
+    </>
   );
 }
 

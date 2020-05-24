@@ -3,7 +3,6 @@ import { NavLink } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import ParticlesBg from "particles-bg";
-import Container from "react-bootstrap/Container";
 
 function Home() {
   return (
