@@ -1,21 +1,21 @@
 .home {
   align-items: center;
   position: relative;
-  top: 200px;
-  margin: 0 auto;
+  top: 25vh;
 
   &__title {
     display: block;
     color: white;
     text-shadow: 2px 2px black;
     text-align: center;
+    font-size: 60px;
   }
 
   &__link--link {
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     margin-top: 10px;
     border-radius: 10%;
   }
