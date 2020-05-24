@@ -13,7 +13,7 @@ function Home() {
     <>
       <ParticlesBg type="cobweb" bg={true} color="#c9c9c9" />
       <Row className="home">
-        <Col lg={7}>
+        <Col sm={6}>
           <h1 className="animate__animated animate__fadeIn home__title">
             Cato
             <br />
@@ -21,7 +21,7 @@ function Home() {
           </h1>
         </Col>
 
-        <Col lg={5} className="home__link">
+        <Col sm={6} className="home__link">
           <NavLink to="/profile" role="link">
             <div className="animate__animated animate__bounceInDown animate__slow home__link--link">
               Profile
