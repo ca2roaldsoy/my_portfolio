@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 
 function NavMenu() {
   return (
@@ -14,8 +13,8 @@ function NavMenu() {
       </Navbar.Brand>
 
       {/* hamburger menu */}
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ml-auto">
           <NavLink to="/" exact className="nav-link" role="link">
             Home
