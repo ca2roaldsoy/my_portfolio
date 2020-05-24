@@ -2,10 +2,11 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { NavLink } from "react-router-dom";
+import Container from "react-bootstrap/Container";
 
 function NavMenu() {
   return (
-    <Navbar role="navigation" expand="md">
+    <Navbar role="navigation" expand="md" variant="dark" bg="dark">
       <Navbar.Brand>
         <NavLink to="/" exact role="link">
           Cato Roaldsøy
