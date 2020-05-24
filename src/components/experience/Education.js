@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Col, Row, Card } from "react-bootstrap";
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+import Tab from "react-bootstrap/Tab";
+import ListGroup from "react-bootstrap/ListGroup";
 
 function Education() {
-  const [listItems, setListItems] = useState([]);
-
   return (
     <section>
       <h3>Education</h3>
@@ -12,7 +12,72 @@ function Education() {
         <p> - School of technology and digital media</p>
       </h4>
       <Row>
-        <Col sm={6}>
+        <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
+          <Col sm={5}>
+            <ListGroup>
+              <ListGroup.Item action href="#link1">
+                3D Design and Animation
+              </ListGroup.Item>
+              <ListGroup.Item action href="#link2">
+                3D Film Production
+              </ListGroup.Item>
+              <ListGroup.Item action href="#link3">
+                3D Game Design
+              </ListGroup.Item>
+              <ListGroup.Item action href="#link4">
+                Front-end Development
+              </ListGroup.Item>
+            </ListGroup>
+          </Col>
+          <Col sm={7}>
+            <Tab.Content>
+              <Tab.Pane eventKey="#link1">
+                <ListGroup>
+                  <ListGroup.Item>Autodesk 3ds Max</ListGroup.Item>
+                  <ListGroup.Item>Adobe Photoshop</ListGroup.Item>
+                  <ListGroup.Item>Adobe Premier Pro</ListGroup.Item>
+                  <ListGroup.Item>Design</ListGroup.Item>
+                  <ListGroup.Item>Animation</ListGroup.Item>
+                </ListGroup>
+              </Tab.Pane>
+              <Tab.Pane eventKey="#link2">
+                <ListGroup>
+                  <ListGroup.Item>Autodesk 3ds Max</ListGroup.Item>
+                  <ListGroup.Item>Autodesk Premier Pro</ListGroup.Item>
+                  <ListGroup.Item>Design</ListGroup.Item>
+                  <ListGroup.Item>Animation</ListGroup.Item>
+                </ListGroup>
+              </Tab.Pane>
+              <Tab.Pane eventKey="#link3">
+                <ListGroup>
+                  <ListGroup.Item>Autodesk 3ds Max</ListGroup.Item>
+                  <ListGroup.Item>Unreal Engine</ListGroup.Item>
+                  <ListGroup.Item>Adobe Photoshop</ListGroup.Item>
+                  <ListGroup.Item>Design</ListGroup.Item>
+                </ListGroup>
+              </Tab.Pane>
+              <Tab.Pane eventKey="#link4">
+                <ListGroup>
+                  <ListGroup.Item>HTML</ListGroup.Item>
+                  <ListGroup.Item>CSS</ListGroup.Item>
+                  <ListGroup.Item>JavaScript</ListGroup.Item>
+                  <ListGroup.Item>Git/GitHub</ListGroup.Item>
+                  <ListGroup.Item>Terminal/Bash</ListGroup.Item>
+                  <ListGroup.Item>WCAG</ListGroup.Item>
+                  <ListGroup.Item>SEO</ListGroup.Item>
+                  <ListGroup.Item>Agile</ListGroup.Item>
+                  <ListGroup.Item>Scrum/Kanban</ListGroup.Item>
+                  <ListGroup.Item>Adobe Illustrator</ListGroup.Item>
+                  <ListGroup.Item>Adobe Photoshop</ListGroup.Item>
+                  <ListGroup.Item>Design</ListGroup.Item>
+                </ListGroup>
+              </Tab.Pane>
+            </Tab.Content>
+          </Col>
+        </Tab.Container>
+      </Row>
+
+      {/*<Col sm={6}>
           <Card>
             <Card.Title>3D Design and Animation</Card.Title>
             <Card.Title>3D Film Production</Card.Title>
@@ -65,8 +130,7 @@ function Education() {
               <Card.Text>Design</Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-      </Row>
+        </Col>*/}
     </section>
   );
 }
