@@ -1,3 +1,7 @@
+.container-fluid {
+  padding: 0;
+}
+
 .heading_container h2 {
   text-align: center;
   font-size: 36px;
@@ -5,8 +9,16 @@
   padding-top: 20px;
 }
 
-#profile_info a {
-  margin: 20px 0;
+.aboutMe {
+  margin-top: 50px;
+}
+
+.profile {
+  align-items: center;
+
+  &__img {
+    width: 100%;
+  }
 }
 
 .about p:first-of-type {
