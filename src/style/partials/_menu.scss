@@ -2,6 +2,7 @@
   align-items: center;
   position: relative;
   top: 200px;
+  margin: 0 auto;
 
   &__title {
     display: block;
@@ -16,5 +17,6 @@
     text-align: center;
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: 10px;
+    border-radius: 10%;
   }
 }

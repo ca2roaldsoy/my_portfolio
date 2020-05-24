@@ -11,7 +11,7 @@ import ParticlesBg from "particles-bg";
 function Home() {
   return (
     <>
-      <ParticlesBg type="cobweb" bg={true} />
+      <ParticlesBg type="cobweb" bg={true} color="#c9c9c9" />
       <Row className="home">
         <Col lg={7}>
           <h1 className="animate__animated animate__fadeIn home__title">
