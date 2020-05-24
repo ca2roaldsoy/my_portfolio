@@ -5,17 +5,8 @@
   padding-top: 20px;
 }
 
-#profile p {
-  text-align: center;
-  margin: 20px;
-}
-
-#profile {
-  text-align: center;
-}
-
 #profile_info a {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .about p:first-of-type {
@@ -41,7 +32,13 @@
 }
 
 .list-group {
+  margin-top: 20px;
   text-align: center;
+  &-item {
+    background: none;
+    color: white;
+    border-bottom: 1px solid white;
+  }
 }
 
 #experience {
@@ -58,6 +55,10 @@ li {
 .about {
   height: 50vh;
   margin-top: 100px;
+}
+
+.aboutMe {
+  color: white;
 }
 
 .card {
