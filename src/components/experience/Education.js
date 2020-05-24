@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Row, Card } from "react-bootstrap";
 
 function Education() {
+  const [listItems, setListItems] = useState([]);
+
   return (
     <section>
       <h3>Education</h3>
@@ -10,11 +12,16 @@ function Education() {
         <p> - School of technology and digital media</p>
       </h4>
       <Row>
-        <Col sm={6} lg={3}>
+        <Col sm={6}>
           <Card>
             <Card.Title>3D Design and Animation</Card.Title>
+            <Card.Title>3D Film Production</Card.Title>
+            <Card.Title>3D Game Design</Card.Title>
+            <Card.Title>Front-end Development</Card.Title>
           </Card>
+        </Col>
 
+        <Col sm={6}>
           <Card>
             <Card.Body>
               <Card.Text>Autodesk 3ds Max</Card.Text>
@@ -23,12 +30,6 @@ function Education() {
               <Card.Text>Animation</Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-
-        <Col sm={6} lg={3}>
-          <Card>
-            <Card.Title>3D Film Production</Card.Title>
-          </Card>
 
           <Card>
             <Card.Body>
@@ -36,12 +37,6 @@ function Education() {
               <Card.Text>Design</Card.Text>
               <Card.Text>Animation</Card.Text>
             </Card.Body>
-          </Card>
-        </Col>
-
-        <Col sm={6} lg={3}>
-          <Card>
-            <Card.Title>3D Game Design</Card.Title>
           </Card>
 
           <Card>
@@ -52,12 +47,6 @@ function Education() {
               <Card.Text>Design</Card.Text>
               <Card.Text>Animation</Card.Text>
             </Card.Body>
-          </Card>
-        </Col>
-
-        <Col sm={6} lg={3}>
-          <Card>
-            <Card.Title>Front-end Development</Card.Title>
           </Card>
 
           <Card>
