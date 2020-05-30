@@ -5,7 +5,7 @@ import Education from "./Education";
 function Experience() {
   return (
     <>
-      <h2>EXPERIENCE</h2>
+      <h2 className="text-center">EXPERIENCE</h2>
       <article>
         <Education />
         <Work />
