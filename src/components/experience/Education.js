@@ -6,11 +6,11 @@ import ListGroup from "react-bootstrap/ListGroup";
 function Education() {
   return (
     <section>
-      <h3>Education</h3>
-      <h4>
+      <h2>Education</h2>
+      <h3>
         <b>Noroff</b>
         <p> - School of technology and digital media</p>
-      </h4>
+      </h3>
       <Row>
         <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
           <Col sm={5}>
@@ -29,7 +29,7 @@ function Education() {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col sm={7}>
+          <Col sm={7} className="topics">
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <ListGroup>
