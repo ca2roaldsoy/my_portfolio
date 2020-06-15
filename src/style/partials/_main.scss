@@ -14,6 +14,11 @@
   }
 }
 
+.topics {
+  max-height: 275px;
+  overflow-y: scroll;
+}
+
 .list-group {
   margin-top: 20px;
   text-align: center;
@@ -35,4 +40,15 @@ li {
 .links {
   display: flex;
   justify-content: center;
+}
+
+.work {
+  &__title {
+    margin: 40px auto;
+    margin-top: 50px;
+  }
+
+  &__item {
+    text-align: center;
+  }
 }
