@@ -14,18 +14,11 @@
   }
 }
 
-.topics {
-  max-height: 275px;
-  overflow-y: scroll;
-}
-
 .list-group {
   margin-top: 20px;
-  text-align: center;
   &-item {
     background: none;
     color: white;
-    border-bottom: 1px solid white;
   }
 }
 
@@ -51,4 +44,9 @@ li {
   &__item {
     text-align: center;
   }
+}
+
+.vertical-timeline-element-content {
+  background: none;
+  border: 1px solid white;
 }
