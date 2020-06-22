@@ -48,6 +48,10 @@ li {
   &-header {
     padding-left: 10px;
     background: none;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &--arrow {
