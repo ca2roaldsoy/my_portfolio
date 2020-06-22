@@ -6,6 +6,8 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Education() {
   return (
@@ -29,7 +31,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Topics
-              <i className="chevron-down" aria-hidden="true"></i>
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -70,6 +75,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Work Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -107,6 +116,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Work Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -135,6 +148,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Work Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -168,6 +185,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Work Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -198,6 +219,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -228,6 +253,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -260,6 +289,10 @@ function Education() {
               className="accordion_dropdown-header"
             >
               Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
