@@ -14,16 +14,16 @@
   }
 }
 
+li {
+  list-style-type: none;
+}
+
 .list-group {
   margin-top: 20px;
   &-item {
     background: none;
     color: white;
   }
-}
-
-li {
-  list-style-type: none;
 }
 
 .aboutMe {
@@ -38,4 +38,15 @@ li {
 .vertical-timeline-element-content {
   background: none;
   border: 1px solid white;
+}
+
+.accordion_dropdown {
+  background: none;
+  border: 1px solid white;
+  margin-top: 20px;
+
+  &-header {
+    padding-left: 10px;
+    background: none;
+  }
 }

@@ -1,10 +1,10 @@
 import React from "react";
 import "react-vertical-timeline-component/style.min.css";
-import "./style/style.scss";
 import MyStatsComp from "./components/navbar/MyStatsComp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomeComp from "./components/navbar/HomeComp";
 import Container from "react-bootstrap/Container";
+import "./style/style.scss";
 
 function App() {
   return (

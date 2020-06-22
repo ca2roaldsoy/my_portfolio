@@ -20,14 +20,16 @@ function Education() {
         <p>Noroff - School of technology and digital media</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Topics
+              <i className="chevron-down" aria-hidden="true"></i>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="0">
               <ListGroup>
@@ -59,12 +61,13 @@ function Education() {
         <p>KNM Harald Haarfagre</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Work Topics
             </Accordion.Toggle>
@@ -95,12 +98,13 @@ function Education() {
         <p>Rogaland Taxi</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Work Topics
             </Accordion.Toggle>
@@ -122,12 +126,13 @@ function Education() {
         <p>Boreal Transport</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Work Topics
             </Accordion.Toggle>
@@ -154,12 +159,13 @@ function Education() {
         <p>Kristiandsand Dyrepark (Kristiandsand Zoo)</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Work Topics
             </Accordion.Toggle>
@@ -183,12 +189,13 @@ function Education() {
         <p>Noroff - School of technology and digital media</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Topics
             </Accordion.Toggle>
@@ -212,12 +219,13 @@ function Education() {
         <p>Noroff - School of technology and digital media</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Topics
             </Accordion.Toggle>
@@ -243,12 +251,13 @@ function Education() {
         <p>Noroff - School of technology and digital media</p>
 
         <Accordion>
-          <Card>
+          <Card className="accordion_dropdown">
             <Accordion.Toggle
               as={Card.Header}
               variant="primary"
               id="dropdown-basic"
               eventKey="0"
+              className="accordion_dropdown-header"
             >
               Topics
             </Accordion.Toggle>
