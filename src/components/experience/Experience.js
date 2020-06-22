@@ -5,8 +5,6 @@ function Experience() {
   return (
     <>
       <h2 className="text-center">EXPERIENCE</h2>
-
-      <h2>EXPERIENCE</h2>
       <h3 className="text-center">Education &amp; Work</h3>
 
       <article>
