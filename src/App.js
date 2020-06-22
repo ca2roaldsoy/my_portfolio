@@ -1,4 +1,5 @@
 import React from "react";
+import "react-vertical-timeline-component/style.min.css";
 import "./style/style.scss";
 import MyStatsComp from "./components/navbar/MyStatsComp";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
