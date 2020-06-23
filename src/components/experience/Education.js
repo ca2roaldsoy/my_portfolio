@@ -15,6 +15,8 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="August 2018 - June 2020"
+        icon="E"
+        iconClassName="timelineIcon"
       >
         <h3 className="vertical-timeline-element-title">
           Front-end Development
@@ -59,6 +61,7 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="June 2007 - September 2018"
+        icon="W"
       >
         <h3 className="vertical-timeline-element-title">
           Assistent Chef / Chef
@@ -102,6 +105,7 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="March 2011 - February 2012"
+        icon="W"
       >
         <h3 className="vertical-timeline-element-title">Call-Center</h3>
         <p>Rogaland Taxi</p>
@@ -134,6 +138,7 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="April 2010 - August 2010"
+        icon="W"
       >
         <h3 className="vertical-timeline-element-title">Ticket salesman</h3>
         <p>Boreal Transport</p>
@@ -171,6 +176,7 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="May 2009 - August 2009"
+        icon="W"
       >
         <h3 className="vertical-timeline-element-title">Activity host</h3>
         <p>Kristiandsand Dyrepark (Kristiandsand Zoo)</p>
@@ -205,6 +211,7 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="August 2008 - June 2009"
+        icon="E"
       >
         <h3 className="vertical-timeline-element-title">3D Game Design</h3>
         <p>Noroff - School of technology and digital media</p>
@@ -239,6 +246,7 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="August 2007 - June 2008"
+        icon="E"
       >
         <h3 className="vertical-timeline-element-title">3D Film</h3>
         <p>Noroff - School of technology and digital media</p>
@@ -273,6 +281,7 @@ function Education() {
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="August 2006 - June 2007"
+        icon="E"
       >
         <h3 className="vertical-timeline-element-title">
           3D Design and Animation

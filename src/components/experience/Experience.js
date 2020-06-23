@@ -5,8 +5,10 @@ function Experience() {
   return (
     <>
       <h2 className="text-center">EXPERIENCE</h2>
-      <h3 className="text-center">Education &amp; Work</h3>
-
+      <section className="timelineExplanation">
+        <small>E = Education</small> <br />
+        <small>W = Work</small>
+      </section>
       <article>
         <Education />
       </article>
