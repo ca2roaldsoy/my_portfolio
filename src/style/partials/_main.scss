@@ -70,3 +70,33 @@ li {
     float: right;
   }
 }
+
+.project {
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 25px auto;
+
+  &__title {
+    margin-top: 25px;
+  }
+
+  &__body {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+
+    &--badge {
+      background-color: #007bff60;
+      color: white;
+      padding: 10px;
+    }
+  }
+
+  &__footer {
+    justify-content: space-around;
+
+    &--img {
+      width: 75px;
+      height: auto;
+    }
+  }
+}
