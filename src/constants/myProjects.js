@@ -40,6 +40,16 @@ export const myProjects = [
     web: "https://determined-sinoussi-faf075.netlify.app/",
   },
   {
+    title: "Sound & Music",
+    script: "JavaScript",
+    style: "CSS",
+    code: "Html",
+    image: "undefined",
+    github: "https://github.com/ca2roaldsoy/ProgrammingFoundation.git",
+    web:
+      "http://catonoroff.com/Noroff/Portfolio1/New%20Programming%20Foundation/Program%20Foundation%20CA/index_2.html",
+  },
+  {
     title: "Game of Thrones Game",
     subTitle: "Non-responsive board",
     script: "JavaScript",
@@ -48,6 +58,7 @@ export const myProjects = [
     image:
       "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ed2e1f902b1491744b588ed/screenshot.png",
     github: "https://github.com/ca2roaldsoy/SemesterProject2019",
-    web: "https://reach-the-throne.netlify.app/",
+    web:
+      "http://catonoroff.com/Noroff/Portfolio1/New%20Programming%20Foundation/Program%20Foundation%20CA/index_2.html",
   },
 ];
