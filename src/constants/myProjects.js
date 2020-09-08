@@ -48,6 +48,6 @@ export const myProjects = [
     image:
       "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ed2e1f902b1491744b588ed/screenshot.png",
     github: "https://github.com/ca2roaldsoy/SemesterProject2019",
-    web: "https://xenodochial-ritchie-d0f767.netlify.app/index.html"
+    web: "https://brave-tereshkova-892513.netlify.app/"
   }
 ];
