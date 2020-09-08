@@ -100,3 +100,18 @@ li {
     }
   }
 }
+
+// Contact PAge
+.contact {
+  margin-top: 50px;
+  align-items: center;
+  text-align: center;
+
+  &__img {
+    width: auto;
+  }
+
+  &__info {
+    font-size: 100%;
+  }
+}

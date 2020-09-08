@@ -2,6 +2,9 @@
   .home__title {
     text-align: left;
   }
+  .contact__info {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -10,6 +13,9 @@
   }
   .work__item {
     text-align: left;
+  }
+  .contact__info {
+    font-size: 125%;
   }
 }
 
@@ -22,5 +28,9 @@
   .timelineExplanation {
     padding-left: 55px;
     text-align: left;
+  }
+
+  .contact__info {
+    font-size: 150%;
   }
 }
