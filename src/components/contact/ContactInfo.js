@@ -28,6 +28,9 @@ function ContactInfo() {
               <b>City:</b> 4351 Kleppe
             </ListGroupItem>
             <ListGroupItem as="li">
+              <b>Phone:</b> 90 12 95 17
+            </ListGroupItem>
+            <ListGroupItem as="li">
               <b>E-mail:</b> roaldsoyen@gmail.com
             </ListGroupItem>
           </ListGroup>
