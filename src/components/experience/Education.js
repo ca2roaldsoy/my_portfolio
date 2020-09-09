@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import {
   VerticalTimeline,
-  VerticalTimelineElement,
+  VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
@@ -32,7 +32,7 @@ function Education() {
               eventKey="0"
               className="accordion_dropdown-header"
             >
-              Topics
+              School Topics
               <FontAwesomeIcon
                 icon={faAngleDown}
                 className="accordion_dropdown--arrow"
@@ -42,15 +42,17 @@ function Education() {
               <ListGroup>
                 <ListGroup.Item>HTML</ListGroup.Item>
                 <ListGroup.Item>CSS</ListGroup.Item>
+                <ListGroup.Item>SASS</ListGroup.Item>
                 <ListGroup.Item>JavaScript</ListGroup.Item>
+                <ListGroup.Item>React</ListGroup.Item>
+                <ListGroup.Item>Vue</ListGroup.Item>
                 <ListGroup.Item>Git/GitHub</ListGroup.Item>
                 <ListGroup.Item>Terminal/Bash</ListGroup.Item>
                 <ListGroup.Item>WCAG</ListGroup.Item>
                 <ListGroup.Item>SEO</ListGroup.Item>
                 <ListGroup.Item>Agile</ListGroup.Item>
-                <ListGroup.Item>Scrum/Kanban</ListGroup.Item>
-                <ListGroup.Item>Adobe Illustrator</ListGroup.Item>
-                <ListGroup.Item>Adobe Photoshop</ListGroup.Item>
+                <ListGroup.Item>DevOps</ListGroup.Item>
+                <ListGroup.Item>Adobe XD</ListGroup.Item>
                 <ListGroup.Item>Design</ListGroup.Item>
               </ListGroup>
             </Accordion.Collapse>
@@ -225,7 +227,7 @@ function Education() {
               eventKey="0"
               className="accordion_dropdown-header"
             >
-              Topics
+              School Topics
               <FontAwesomeIcon
                 icon={faAngleDown}
                 className="accordion_dropdown--arrow"
@@ -260,7 +262,7 @@ function Education() {
               eventKey="0"
               className="accordion_dropdown-header"
             >
-              Topics
+              School Topics
               <FontAwesomeIcon
                 icon={faAngleDown}
                 className="accordion_dropdown--arrow"
@@ -297,7 +299,7 @@ function Education() {
               eventKey="0"
               className="accordion_dropdown-header"
             >
-              Topics
+              School Topics
               <FontAwesomeIcon
                 icon={faAngleDown}
                 className="accordion_dropdown--arrow"
