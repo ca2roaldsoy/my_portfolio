@@ -17,7 +17,7 @@ export const myProjects = [
     image:
       "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ed2dbea87e8c7076b3a898d/screenshot.png",
     github: "https://github.com/ca2roaldsoy/Portfolio2-JS1",
-    web: "https://gameofcards.netlify.app/"
+    web: "https://festive-fermi-9122cc.netlify.app/"
   },
   {
     title: "January Island Escapes",
@@ -48,6 +48,6 @@ export const myProjects = [
     image:
       "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ed2e1f902b1491744b588ed/screenshot.png",
     github: "https://github.com/ca2roaldsoy/SemesterProject2019",
-    web: "https://brave-tereshkova-892513.netlify.app/"
+    web: "https://gracious-turing-937129.netlify.app/"
   }
 ];
