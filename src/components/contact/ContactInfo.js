@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row, ListGroupItem, ListGroup, Image } from "react-bootstrap";
-import MyProfileImg from "../../assets/myprofile_image.jpg";
+import MyContactImg from "../../assets/contact_pic_2.jpg";
 
 function ContactInfo() {
   return (
@@ -9,7 +9,7 @@ function ContactInfo() {
       <Row className="contact">
         <Col sm={6}>
           <Image
-            src={MyProfileImg}
+            src={MyContactImg}
             alt="profile of me"
             fluid
             roundedCircle
