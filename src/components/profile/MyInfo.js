@@ -11,43 +11,40 @@ function MyInfo() {
           alt="profile of me"
           fluid
           roundedCircle
-          className="animate__animated animate__fadeInDown animate__slow profile__img"
+          className="profile__img"
         />
       </Col>
       <Col sm={6} className="profile__info">
         <ListGroup variant="flush" as="ul">
           <ListGroupItem
-            as="li"
-            className="animate__animated animate__lightSpeedInLeft animate__slow"
+            as="li"   
           >
             <b>Name:</b> Cato Roaldsøy
           </ListGroupItem>
           <ListGroupItem
             as="li"
-            className="animate__animated animate__lightSpeedInLeft animate__slower"
           >
             <b>Age:</b> 32 years
           </ListGroupItem>
           <ListGroupItem
             as="li"
-            className="animate__animated animate__lightSpeedInLeft animate__slow animate__delay-1s"
           >
             <b>Adress:</b> P. Krohns Veg 12
           </ListGroupItem>
           <ListGroupItem
             as="li"
-            className="animate__animated animate__lightSpeedInLeft animate__slower animate__delay-1s"
           >
             <b>City:</b> 4351 Kleppe
           </ListGroupItem>
+          <ListGroupItem>
           <a
             href="https://www.facebook.com/people/Cato-Roalds%C3%B8y/100000434225604"
-            className="animate__animated animate__lightSpeedInLeft animate__slower animate__delay-1s mt-3"
             target="_blank"
             rel="noopener noreferrer"
           >
             Look me up on Facebook
           </a>
+          </ListGroupItem>
         </ListGroup>
       </Col>
     </Row>

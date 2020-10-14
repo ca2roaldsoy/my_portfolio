@@ -13,7 +13,7 @@ function ContactInfo() {
             alt="profile of me"
             fluid
             roundedCircle
-            className="animate__animated animate__fadeInDown animate__slow contact__img"
+            className="contact__img"
           />
         </Col>
         <Col sm={6} className="contact__info">

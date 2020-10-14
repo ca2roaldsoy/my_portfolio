@@ -12,6 +12,45 @@ import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 function Education() {
   return (
     <VerticalTimeline>
+
+<VerticalTimelineElement
+        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+        date="August 2020 - December 2020"
+        icon="E"
+        iconClassName="timelineIcon"
+      >
+        <h3 className="vertical-timeline-element-title">
+         Development
+        </h3>
+        <p>TISIP (It-fag)</p>
+
+        <Accordion>
+          <Card className="accordion_dropdown">
+            <Accordion.Toggle
+              as={Card.Header}
+              variant="primary"
+              id="dropdown-basic"
+              eventKey="0"
+              className="accordion_dropdown-header"
+            >
+              School Topics
+              <FontAwesomeIcon
+                icon={faAngleDown}
+                className="accordion_dropdown--arrow"
+              />
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="0">
+              <ListGroup>
+                <ListGroup.Item>PHP</ListGroup.Item>
+                <ListGroup.Item>JAVA</ListGroup.Item>
+                <ListGroup.Item>SQL / MySQL</ListGroup.Item>
+                <ListGroup.Item>Azure</ListGroup.Item>
+              </ListGroup>
+            </Accordion.Collapse>
+          </Card>
+        </Accordion>
+      </VerticalTimelineElement>
+
       <VerticalTimelineElement
         contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
         date="August 2018 - June 2020"
