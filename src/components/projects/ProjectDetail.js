@@ -21,7 +21,6 @@ function ProjectDetail({
       sm={12}
       md={4}
       lg={4}
-      className="animate__animated animate__fadeInDown"
     >
       <Card className="project">
         <Card.Img variant="top" src={img} />

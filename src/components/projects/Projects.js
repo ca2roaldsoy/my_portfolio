@@ -6,7 +6,7 @@ import ProjectDetail from "./ProjectDetail";
 function Projects() {
   return (
     <section>
-      <h2>Projects</h2>
+      <h2>My Projects</h2>
       <Row className="projectContainer">
         {myProjects.map((project, i) => {
           return (
