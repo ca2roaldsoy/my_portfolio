@@ -31,7 +31,7 @@ export const myProjects = [
   },
   {
     title: "Holidaze",
-    subTitle: "the key to this project is no longer working, but you can always check my github for this project :)",
+    subTitle: "this project is sadly no longer working, but you can always check my github for this project :)",
     script: "React",
     style: "Sass",
     code: "Html",
