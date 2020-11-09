@@ -31,13 +31,13 @@ export const myProjects = [
   },
   {
     title: "Holidaze",
+    subTitle: "the key to this project is no longer working, but you can always check my github for this project :)",
     script: "React",
     style: "Sass",
     code: "Html",
     image:
       "https://d33wubrfki0l68.cloudfront.net/5f5762e5be2aef00d559decc/screenshot.png",
     github: "https://github.com/ca2roaldsoy/ProjectExam-2",
-    web: "https://musing-hugle-fda8d4.netlify.app/"
   },
   {
     title: "Game of Thrones Game",
