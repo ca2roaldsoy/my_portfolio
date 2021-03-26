@@ -49,5 +49,15 @@ export const myProjects = [
       "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5ed2e1f902b1491744b588ed/screenshot.png",
     github: "https://github.com/ca2roaldsoy/SemesterProject2019",
     web: "https://relaxed-ritchie-a3c1df.netlify.app/"
+  },
+  {
+    title: "Register User Account",
+    subTitle: "No deployment yet, but have a look at my github",
+    script: "PHP",
+    style: "CSS",
+    code: "MySQL, SQL",
+    image:
+      "https://github.com/ca2roaldsoy/Database_php/blob/master/images/backgr-img.jpg?raw=true",
+    github: "https://github.com/ca2roaldsoy/Database_php",
   }
 ];
