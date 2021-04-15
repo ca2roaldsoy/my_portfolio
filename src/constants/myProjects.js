@@ -40,6 +40,16 @@ export const myProjects = [
     web: "https://holidaze-832b4.web.app/"
   },
   {
+    title: "Gamer Revolution",
+    script: "WordPress",
+    style: "Sass/CSS",
+    code: "PHP og JavaScript",
+    image:
+      "https://flywheel-app-production.s3.amazonaws.com/uploads/site/559585/1618500047-4-0001-8197/gamer-revolution.flywheelsites.com_large.png",
+    github: "https://github.com/ca2roaldsoy/wp-games",
+    web: "http://gamer-revolution.flywheelsites.com/"
+  },
+  {
     title: "Game of Thrones Game",
     subTitle: "Non-responsive board",
     script: "JavaScript",
@@ -59,15 +69,5 @@ export const myProjects = [
     image:
       "https://github.com/ca2roaldsoy/Database_php/blob/master/images/backgr-img.jpg?raw=true",
     github: "https://github.com/ca2roaldsoy/Database_php",
-  },
-  {
-    title: "Gamer Revolution",
-    script: "WordPress",
-    style: "Sass/CSS",
-    code: "PHP og JavaScript",
-    image:
-      "https://flywheel-app-production.s3.amazonaws.com/uploads/site/559585/1618500047-4-0001-8197/gamer-revolution.flywheelsites.com_large.png",
-    github: "https://github.com/ca2roaldsoy/wp-games",
-    web: "http://gamer-revolution.flywheelsites.com/"
-  },
+  }
 ];
