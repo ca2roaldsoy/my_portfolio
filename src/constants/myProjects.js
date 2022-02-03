@@ -41,6 +41,7 @@ export const myProjects = [
   },
   {
     title: "Gamer Revolution",
+    subTitle: "Not deployed yet, but have a look at my github",
     script: "WordPress",
     style: "Sass/CSS",
     code: "PHP og JavaScript",
@@ -61,7 +62,7 @@ export const myProjects = [
   },
   {
     title: "Register User Account",
-    subTitle: "No deployment yet, but have a look at my github",
+    subTitle: "Not deployed yet, but have a look at my github",
     script: "PHP",
     style: "CSS",
     code: "MySQL, SQL",
