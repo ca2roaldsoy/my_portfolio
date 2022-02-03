@@ -32,7 +32,7 @@ function Education() {
                     eventKey="0"
                     className="accordion_dropdown-header"
                   >
-                    School Topics
+                    Work Topics
                     <FontAwesomeIcon
                       icon={faAngleDown}
                       className="accordion_dropdown--arrow"
@@ -45,6 +45,10 @@ function Education() {
                       <ListGroup.Item>Gutenberg</ListGroup.Item>
                       <ListGroup.Item>Elementor</ListGroup.Item>
                       <ListGroup.Item>PHP</ListGroup.Item>
+                      <ListGroup.Item>CSS</ListGroup.Item>
+                      <ListGroup.Item>Updates</ListGroup.Item>
+                      <ListGroup.Item>Backups</ListGroup.Item>
+                      <ListGroup.Item>Maintenance</ListGroup.Item>
                     </ListGroup>
                   </Accordion.Collapse>
                 </Card>
