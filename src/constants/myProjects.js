@@ -47,7 +47,6 @@ export const myProjects = [
     image:
       "https://flywheel-app-production.s3.amazonaws.com/uploads/site/559585/1618500047-4-0001-8197/gamer-revolution.flywheelsites.com_large.png",
     github: "https://github.com/ca2roaldsoy/wp-games",
-    web: "http://gamer-revolution.flywheelsites.com/"
   },
   {
     title: "Game of Thrones Game",

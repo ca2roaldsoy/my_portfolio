@@ -8,6 +8,20 @@ function Work() {
       <h3 className="mt-5 mb-3">Work</h3>
       <Row>
         <Col sm={12} md={4} className="work__item">
+            <Card>
+              <Card.Title className="mb-3">Megabite AS</Card.Title>
+              <Card.Subtitle className="mb-3">Consultant/Developer</Card.Subtitle>
+              <Card.Text>
+                WordPress
+              </Card.Text>
+              <Card.Text>
+                WordPress
+              </Card.Text>
+              
+            </Card>
+          </Col>
+
+        <Col sm={12} md={4} className="work__item">
           <Card>
             <Card.Title className="mb-3">Madla Military Camp</Card.Title>
             <Card.Subtitle className="mb-3">Assistent Chef</Card.Subtitle>

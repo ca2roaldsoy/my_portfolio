@@ -24,7 +24,7 @@ function MyInfo() {
           <ListGroupItem
             as="li"
           >
-            <b>Age:</b> 32 years
+            <b>Age:</b> 34 years
           </ListGroupItem>
           <ListGroupItem
             as="li"
